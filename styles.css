@@ -1,7 +1,7 @@
 body {
     margin: auto;
     padding: 2em;
-    background-color: brown;
+    background-color: rgb(6, 31, 78);
 }
 
 .container_principal {
@@ -27,6 +27,9 @@ body {
     padding-top: 20px;
     width: 100%; 
     justify-content: center;
+    border: 10px solid  gray;;
+
+    box-shadow: 5px 5px 15px rgba(167, 161, 161, 0.5);
 }
 
 .bloco {
@@ -52,7 +55,14 @@ body {
     padding-top: 20px;
     overflow: hidden;
     width: 100%;  
+    border: 10px solid  gray;
+    border-bottom: 0;
+
+    box-shadow: 5px 5px 15px rgba(167, 161, 161, 0.5);
 }
+
+
+
 
 .placarDivs {
     justify-content: center;
@@ -61,6 +71,14 @@ body {
     background-color: black;
     color: red;
     font-size: 1.2em;
+    border-radius: 5px;
+    border: 3px solid gray;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+
 }
 
 .placarDivsEMOTE {
@@ -71,6 +89,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
+     border: 3px solid  gray;
+     cursor: pointer;
+
 }
 .numero1 {
    
@@ -82,9 +104,9 @@ body {
 
 .blocoFechado {
     background-color: darkgray;
-    cursor: pointer;
+   
 
- 
+ cursor: pointer;
 
     box-shadow: 5px 5px 15px rgba(0.5, 0.5, 0.5, 0.5);
 }
